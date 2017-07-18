@@ -1,0 +1,1204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: InPost for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Mon Jan 25 2016 11:45:21 GMT+0100\n"
+"PO-Revision-Date: 2016-03-29 15:52+0100\n"
+"Last-Translator: wp-kat <admin@wp-kat.net>\n"
+"Language-Team: \n"
+"Language: Italian\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Loco-Target-Locale: it_IT\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. Description of the plugin
+msgid ""
+"InPost is an international network of fully automated parcel lockers that "
+"are accessible 24/7, meaning no more queues or waiting in, enabling "
+"customers to collect, send and return parcels."
+msgstr ""
+"Seleziona il Locker InPost come indirizzo di spedizione, controlla la mappa "
+"che si aprirà automaticamente e scegli il Locker InPost che ti è più comodo. "
+"Non appena il pacco sarà sarà riposto nel Locker, riceverai un sms con il "
+"codice PIN ed un codice QR che potrai usare alternativamente per ritirare il "
+"tuo acquisto."
+
+#. Name of the plugin
+msgid "InPost for WooCommerce"
+msgstr "InPost for WooCommerce"
+
+#. Author of the plugin
+msgid "WP Desk"
+msgstr "WP Desk"
+
+#. Author URI of the plugin
+msgid "http://www.wpdesk.pl"
+msgstr "http://www.wpdesk.pl"
+
+#: ../woo-inpost.php:134
+msgid "A 8 x 38 x 64 cm"
+msgstr "A 8 x 38 x 64 cm"
+
+#: ../woo-inpost.php:135
+msgid "B 19 x 38 x 64 cm"
+msgstr "B 19 x 38 x 64 cm"
+
+#: ../woo-inpost.php:136
+msgid "C 41 x 38 x 64 cm"
+msgstr "C 41 x 38 x 64 cm"
+
+#: ../woo-inpost.php:142 ../woo-inpost.php:153 ../classes/shipping/views/html-
+#: rates-cross-border-parcel-machines.php:20
+#: ../classes/shipping/views/html-rates- cross-border-courier.php:20
+msgid "1 kg"
+msgstr "1 kg"
+
+#: ../woo-inpost.php:143 ../woo-inpost.php:154 ../classes/shipping/views/html-
+#: rates-cross-border-parcel-machines.php:21
+#: ../classes/shipping/views/html-rates- cross-border-courier.php:21
+msgid "2 kg"
+msgstr "2 kg"
+
+#: ../woo-inpost.php:144 ../woo-inpost.php:155 ../classes/shipping/views/html-
+#: rates-cross-border-parcel-machines.php:22
+#: ../classes/shipping/views/html-rates- cross-border-courier.php:22
+msgid "5 kg"
+msgstr "5 kg"
+
+#: ../woo-inpost.php:145 ../woo-inpost.php:156 ../classes/shipping/views/html-
+#: rates-cross-border-parcel-machines.php:23
+#: ../classes/shipping/views/html-rates- cross-border-courier.php:23
+msgid "10 kg"
+msgstr "10 kg"
+
+#: ../woo-inpost.php:146 ../woo-inpost.php:157 ../classes/shipping/views/html-
+#: rates-cross-border-parcel-machines.php:24
+#: ../classes/shipping/views/html-rates- cross-border-courier.php:24
+msgid "15 kg"
+msgstr "15 kg"
+
+#: ../woo-inpost.php:147 ../woo-inpost.php:158 ../classes/shipping/views/html-
+#: rates-cross-border-parcel-machines.php:25
+#: ../classes/shipping/views/html-rates- cross-border-courier.php:25
+msgid "20 kg"
+msgstr "20 kg"
+
+#: ../woo-inpost.php:159 ../classes/shipping/views/html-rates-cross-border-
+#: courier.php:26
+msgid "25 kg"
+msgstr "25 kg"
+
+#: ../woo-inpost.php:203
+msgid "Settings"
+msgstr "Parametri"
+
+#: ../woo-inpost.php:204
+msgid "Documentation"
+msgstr "Documentazione"
+
+#: ../woo-inpost.php:205
+msgid "Support"
+msgstr "Servizio e assistenza"
+
+#: ../templates/checkout/crossborder-review-order-after-shipping.php:16 ..
+#: templates/checkout/easypack-review-order-after-shipping.php:16
+msgid "Select Parcel Locker"
+msgstr "Scegli un Locker"
+
+#: ../templates/checkout/crossborder-review-order-after-shipping.php:20 ..
+#: templates/checkout/easypack-review-order-after-shipping.php:20
+msgid "Select parcel locker"
+msgstr "Scegli un Locker"
+
+#: ../templates/checkout/crossborder-review-order-after-shipping.php:23 ..
+#: templates/checkout/easypack-review-order-after-shipping.php:23
+msgid "Nearly"
+msgstr "alla prossimità"
+
+#: ../templates/checkout/crossborder-review-order-after-shipping.php:34 ..
+#: templates/checkout/easypack-review-order-after-shipping.php:34
+msgid "Other"
+msgstr "Altri"
+
+#: ../templates/checkout/crossborder-review-order-after-shipping.php:92 ..
+#: templates/checkout/easypack-review-order-after-shipping.php:52
+msgid "Map"
+msgstr "Carta"
+
+#: ../templates/myaccount/after-my-account.php:11
+#: ../templates/myaccount/before- my-account.php:11
+#: ../classes/admin/class-settings-general.php:472
+msgid "Returns"
+msgstr "Resi"
+
+#: ../templates/emails/after-order-table.php:12
+#: ../templates/emails/plain/after- order-table.php:12
+#, php-format
+msgid "Package(s) %s was sent."
+msgstr "Il pacco è inviato %s"
+
+#: ../templates/emails/after-order-table.php:13 ../classes/shipping/parcel-
+#: machines.php:672 ../classes/shipping/cross-border-parcel-machines.php:631
+#: .. classes/shipping/views/html-order-matabox-crossborder-courier.php:114
+#: classes/shipping/views/html-order-matabox-crossborder-parcel-machines.php:122
+#: ../classes/shipping/views/html-order-matabox-parcel-machines.php:86
+#: classes/shipping/views/html-order-matabox-parcel-machines_cod.php:89
+msgid "Track shipment"
+msgstr "Segui l&#39;invio"
+
+#: ../templates/emails/plain/after-order-table.php:13
+msgid "Track shipment: "
+msgstr "Segui l&#39;invio"
+
+#: ../classes/class-easypack-api.php:62
+msgid "Recipient e-mail"
+msgstr "Email del destinatario"
+
+#: ../classes/class-easypack-api.php:63
+msgid "Recipient phone"
+msgstr "Numero di telefono del destinatario"
+
+#: ../classes/class-easypack-api.php:64
+msgid "Address"
+msgstr "Indirizzo"
+
+#: ../classes/class-easypack-api.php:65
+#: ../classes/admin/class-settings-general. php:567
+#: ../classes/admin/class-settings-general.php:758
+msgid "Phone"
+msgstr "N° di telefono"
+
+#: ../classes/class-easypack-api.php:66
+#: ../classes/admin/class-settings-general. php:557
+#: ../classes/admin/class-settings-general.php:748
+msgid "Email"
+msgstr "Email"
+
+#: ../classes/class-easypack-api.php:67 ../classes/class-easypack-api.php:68
+#: .. classes/admin/class-settings-general.php:615
+#: ../classes/admin/class-settings- general.php:697
+#: ../classes/admin/class-settings-general.php:728
+msgid "Post code"
+msgstr "Codice postale"
+
+#: ../classes/class-easypack-api.php:69
+msgid "Default parcel locker"
+msgstr "Locker predefinito"
+
+#: ../classes/class-easypack-api.php:71
+msgid "not valid"
+msgstr "Incorretto"
+
+#: ../classes/class-easypack-api.php:72
+msgid "invalid"
+msgstr "Invalido"
+
+#: ../classes/class-easypack-api.php:73
+msgid "not found"
+msgstr "non trovato"
+
+#: ../classes/class-easypack-api.php:74
+msgid "invalid format"
+msgstr "formato invalido"
+
+#: ../classes/class-easypack-api.php:75
+msgid "required"
+msgstr "richiesto"
+
+#: ../classes/class-easypack-api.php:76
+msgid "too many characters"
+msgstr "troppi personaggi"
+
+#: ../classes/class-easypack-api.php:78
+msgid ""
+"Can not create sticker. You have not enough funds to pay for this parcel"
+msgstr ""
+"L&#39;etichetta non può essere creata. Non sono i fondi sufficienti sul tuo "
+"conto per pagare l&#39;invio."
+
+#: ../classes/class-easypack-api.php:80
+msgid "Invalid login or token"
+msgstr "Login o token invalido"
+
+#: ../classes/class-easypack-api.php:81
+msgid "Invalid login"
+msgstr "Login invalido"
+
+#: ../classes/class-easypack-api.php:82
+msgid "Token is missing or invalid"
+msgstr "Token invalido/Mancanza di token"
+
+#: ../classes/class-easypack-api.php:83
+msgid "Parcel Locker is empty. Please fill in this field."
+msgstr "Il Locker è vuoto. Sei gentile di riempire questo campo."
+
+#: ../classes/class-easypack-api.php:84
+msgid "Default send parcel locker: "
+msgstr "Invia al Locker predefinito:"
+
+#: ../classes/class-easypack-api.php:85
+msgid "The transaction can not be completed due to the balance of your account"
+msgstr "La trasazione non sarà eseguita visto lo stato del conto."
+
+#: ../classes/class-easypack-api.php:150 ../classes/class-easypack-api.php:197
+msgid "Bad API response. Check API URL"
+msgstr "Risposta invalida API. Verifica URL API"
+
+#: ../classes/class-easypack-api.php:449
+msgid ""
+"Invalid phone number. Valid phone number must contains 9 or 10 digits and "
+"must begins with 3."
+msgstr ""
+"Numero di telefono incorretto. Il numero corretto di telefono deve contenere "
+"9 o 10 ciffre e comminciare per 3."
+
+#: ../classes/class-easypack-api.php:458
+msgid ""
+"Invalid phone number. Valid phone number must contains 9 digits and must "
+"begins with 6 or 7."
+msgstr ""
+"Numero di telefono incorretto. Il numero corretto di telefono deve contenere "
+"9 ciffre e comminciare per 6 o 7."
+
+#: ../classes/class-easypack-api.php:466
+msgid "Invalid phone number. Valid phone number must contains 10 digits."
+msgstr ""
+"Numero di telefono incorretto. Il numero corretto di telefono deve contenere "
+"10 ciffre."
+
+#: ../classes/class-easypack-api.php:474
+msgid ""
+"Invalid phone number. Valid phone number must contains 9 digits and must not "
+"begins with 0."
+msgstr ""
+"Numero di telefono incorretto. Il numero corretto di telefono deve contenere "
+"9 o 10 ciffre e non può comminciare per 0."
+
+#: ../classes/class-easypack-api.php:477
+msgid "Invalid phone number."
+msgstr "Numero di telefono invalido."
+
+#: ../classes/class-crossborder-api.php:63
+msgid "recipient e-mail is invalid"
+msgstr "Indirizzo email del destinatario invalido"
+
+#: ../classes/class-crossborder-api.php:64
+#: ../classes/class-crossborder-api.php:68
+msgid "recipient phone is empty"
+msgstr "Mancanza di numero di telefono del destinatario "
+
+#: ../classes/class-crossborder-api.php:65
+#: ../classes/class-crossborder-api.php:69
+msgid "recipient phone is invalid"
+msgstr "Numero di telefono del destinatario incorretto"
+
+#: ../classes/class-crossborder-api.php:66
+msgid "recipient first name is empty"
+msgstr "Mancanza di nome del destinatario "
+
+#: ../classes/class-crossborder-api.php:67
+msgid "recipient last name is empty"
+msgstr "Mancanza di cognome del destinatario "
+
+#: ../classes/class-crossborder-api.php:70
+msgid "recipient country is empty"
+msgstr "Mancanza di Stato del destinatario "
+
+#: ../classes/class-crossborder-api.php:71
+msgid "recipient e-mail is empty"
+msgstr "Mancanza di indirizzo email del destinatario "
+
+#: ../classes/class-crossborder-api.php:72
+msgid "recipient postcode is empty"
+msgstr "Mancanza di codice postale del destinatario "
+
+#: ../classes/class-crossborder-api.php:73
+msgid "recipient postcode is invalid"
+msgstr "Codice postale del destinatario incorretto"
+
+#: ../classes/class-crossborder-api.php:74
+msgid "recipient building number is empty"
+msgstr "Mancanza di numero di edificio del destinatario "
+
+#: ../classes/class-crossborder-api.php:75
+msgid "recipient building number is invalid"
+msgstr "Numero di edificio del destinatario incorretto"
+
+#: ../classes/class-crossborder-api.php:76
+msgid "recipient city is empty"
+msgstr "Mancanza di nome di città del destinatario "
+
+#: ../classes/class-crossborder-api.php:77
+msgid "recipient city is invalid"
+msgstr "Nome di città del destinatario incorretto"
+
+#: ../classes/class-crossborder-api.php:78
+msgid "recipient street is empty"
+msgstr "Mancanza di nome di via del destinatario "
+
+#: ../classes/class-crossborder-api.php:79
+msgid "recipient street is invalid"
+msgstr "Nome di via del destinatario incorretto"
+
+#: ../classes/class-crossborder-api.php:80
+msgid "recipient country not supported"
+msgstr "Lo Stato del destinatario non è servito"
+
+#: ../classes/class-crossborder-api.php:81
+msgid "invalid pack size"
+msgstr "invalid pack size"
+
+#: ../classes/class-crossborder-api.php:83
+msgid "You have not enough funds to pay for this parcel."
+msgstr "Non sono i fondi sufficienti sul tuo conto per pagare l&#39;invio."
+
+#: ../classes/class-crossborder-api.php:85
+msgid "Invalid Password"
+msgstr "Password invalido"
+
+#: ../classes/class-crossborder-api.php:86
+msgid "Invalid Login"
+msgstr "Login invalido"
+
+#: ../classes/class-helper.php:166 ../classes/shipping/parcel-machines.php:636
+#: .. classes/shipping/cross-border-parcel-machines.php:610
+msgid "stickers"
+msgstr "etichette"
+
+#: ../classes/class-helper.php:292
+#: ../classes/admin/class-settings-general.php:849
+#: ../classes/admin/class-settings-general.php:900
+msgid "InPost API configuration error: "
+msgstr "Errore di configurazione InPost API"
+
+#: ../classes/class-helper.php:295 ../classes/class-helper.php:315
+#, php-format
+msgid "Go to %sconfiguration%s to fix it."
+msgstr "Per ripararla, passa alla %sconfigurazione%s."
+
+#: ../classes/class-helper.php:312
+#: ../classes/admin/class-settings-general.php:883
+msgid "InPost Cross Border API configuration error: "
+msgstr "Errore di configurazione InPost API Cross Border"
+
+#: ../classes/class-ajax.php:90
+msgid "Returns page content here"
+msgstr "Qui: contenuto della pagina Rese"
+
+#: ../classes/class-ajax.php:92
+msgid "InPost Returns"
+msgstr "Resi InPost"
+
+#: ../classes/class-ajax.php:122
+msgid "Returns page created."
+msgstr "La pagina Rese è stata creata"
+
+#: ../classes/admin/class-shipment-manager.php:29
+#: ../classes/admin/class-shipment- manager.php:29
+#: ../classes/admin/class-settings-general.php:27 ..
+#: classes/shipping/parcel-machines-cod.php:200 ../classes/shipping/parcel-
+#: machines.php:368 ../classes/shipping/cross-border-courier.php:268
+#: classes/shipping/cross-border-parcel-machines.php:332
+msgid "InPost"
+msgstr "InPost"
+
+#: ../classes/admin/class-shipment-manager.php:30
+#: ../classes/admin/class-shipment- manager.php:30
+msgid "Shipments"
+msgstr "Spedizioni"
+
+#: ../classes/admin/class-shipment-manager.php:32
+#: ../classes/admin/class-shipment- manager.php:32
+msgid "Dispatch Orders"
+msgstr "Ordine d&#39;invio"
+
+#: ../classes/admin/class-shipment-manager.php:48
+msgid "All"
+msgstr "Tutte"
+
+#: ../classes/admin/class-shipment-manager.php:49
+#: ../classes/admin/class-shipment- manager-list-table.php:78
+#: ../classes/admin/class-shipment-manager-list-table. php:100
+#: ../classes/admin/class-settings-general.php:312
+msgid "Parcel Locker"
+msgstr "Locker"
+
+#: ../classes/admin/class-shipment-manager.php:50
+#: ../classes/admin/class-shipment- manager.php:55
+#: ../classes/admin/class-shipment-manager-list-table.php:74 ..
+#: classes/admin/class-shipment-manager-list-table.php:96
+#: ../classes/admin/class- settings-general.php:313
+#: ../classes/shipping/parcel-machines-cod.php:229
+#: classes/shipping/parcel-machines-cod.php:251 ../classes/shipping/parcel-
+#: machines-cod.php:254 ../classes/shipping/parcel-machines.php:403
+#: classes/shipping/parcel-machines.php:425
+#: ../classes/shipping/parcel-machines. php:428
+#: ../classes/shipping/cross-border-courier.php:302
+#: classes/shipping/cross-border-parcel-machines.php:366
+msgid "Courier"
+msgstr "Corriere"
+
+#: ../classes/admin/class-shipment-manager.php:64
+msgid "Created manifests "
+msgstr "Manifesti d&#39;invio creati"
+
+#: ../classes/admin/class-shipment-manager.php:84
+msgid "Error while creating manifest: "
+msgstr "Errore durante la creazione del manifesto d&#39;invio"
+
+#: ../classes/admin/class-shipment-manager-list-table.php:86 ..
+#: classes/admin/class-shipment-manager-list-table.php:105
+msgid "Parcel Locker "
+msgstr "Locker"
+
+#: ../classes/admin/class-shipment-manager-list-table.php:152
+msgid "Package"
+msgstr "Pacco"
+
+#: ../classes/admin/class-shipment-manager-list-table.php:153 ..
+#: classes/shipping/views/html-order-matabox-crossborder-courier.php:98
+#: classes/shipping/views/html-order-matabox-crossborder-parcel-machines.php:106
+#: ../classes/shipping/views/html-order-matabox-parcel-machines.php:66
+#: classes/shipping/views/html-order-matabox-parcel-machines_cod.php:69
+msgid "Send method"
+msgstr "Modo di spedizione"
+
+#: ../classes/admin/class-shipment-manager-list-table.php:154
+msgid "Status"
+msgstr "Status"
+
+#: ../classes/admin/class-shipment-manager-list-table.php:155
+msgid "Order"
+msgstr "Ordine"
+
+#: ../classes/admin/class-shipment-manager-list-table.php:156
+msgid "Shipping address"
+msgstr "Indirizzo di spedizione"
+
+#: ../classes/admin/class-manifest-pdf.php:25
+msgid "Page "
+msgstr "Pagina"
+
+#: ../classes/admin/class-post-types.php:29 ../classes/admin/class-dispatch-
+#: orders.php:340
+msgctxt "post type general name"
+msgid "Dispatch Orders"
+msgstr "Disposizione d&#39;invio"
+
+#: ../classes/admin/class-post-types.php:30 ../classes/admin/class-dispatch-
+#: orders.php:341
+msgctxt "post type singular name"
+msgid "Dispatch Order"
+msgstr "Disposizione d&#39;invio"
+
+#: ../classes/admin/class-post-types.php:31 ../classes/admin/class-dispatch-
+#: orders.php:342
+msgctxt "admin menu"
+msgid "Dispatch Orders"
+msgstr "Disposizione d&#39;invio"
+
+#: ../classes/admin/class-post-types.php:32 ../classes/admin/class-dispatch-
+#: orders.php:343
+msgctxt "add new on admin bar"
+msgid "Dispatch Order"
+msgstr "Disposizione d&#39;invio"
+
+#: ../classes/admin/class-post-types.php:33 ../classes/admin/class-dispatch-
+#: orders.php:344
+msgid "All Dispatch Orders"
+msgstr "Tutte le disposizioni d&#39;invio"
+
+#: ../classes/admin/class-post-types.php:34 ../classes/admin/class-dispatch-
+#: orders.php:345
+msgid "Search Dispatch Orders"
+msgstr "Trovi una disposizione d&#39;invio"
+
+#: ../classes/admin/class-post-types.php:35 ../classes/admin/class-dispatch-
+#: orders.php:346
+msgid "No Dispatch Orders found."
+msgstr "L&#39;ordine d&#39;invio non trovata"
+
+#: ../classes/admin/class-post-types.php:36 ../classes/admin/class-dispatch-
+#: orders.php:347
+msgid "No Dispatch Orders found in Trash."
+msgstr "L&#39;ordine d&#39;invio non trovata nel Cestino"
+
+#: ../classes/admin/class-post-types.php:41 ../classes/admin/class-dispatch-
+#: orders.php:352
+msgid "Dispatch Orders."
+msgstr "Disposizione d&#39;invio"
+
+#: ../classes/admin/class-dispatch-orders.php:380
+msgid "Created"
+msgstr "Creato"
+
+#: ../classes/admin/class-dispatch-orders.php:382
+#: ../classes/shipping/views/html- rates-cod.php:23
+#: ../classes/shipping/views/html-rates.php:22
+msgid "Action"
+msgstr "Azione"
+
+#: ../classes/admin/class-dispatch-orders.php:398
+msgid "Cancelled"
+msgstr "Annullato"
+
+#: ../classes/admin/class-dispatch-orders.php:408
+msgid "Print"
+msgstr "Imprimi"
+
+#: ../classes/admin/class-dispatch-orders.php:412
+msgid "Cancel"
+msgstr "Annulla"
+
+#: ../classes/admin/class-dispatch-orders.php:458
+#, php-format
+msgid "Dispatch order %d already cancelled."
+msgstr "L&#39;ordine d&#39;invio %d è già annullato"
+
+#: ../classes/admin/class-dispatch-orders.php:466
+#, php-format
+msgid "Dispatch order %d cancelled."
+msgstr "L&#39;ordine d&#39;invio %d è annullato"
+
+#: ../classes/admin/class-settings-general.php:80
+#: ../classes/admin/class-settings- general.php:350
+msgid "API URL"
+msgstr "API URL"
+
+#: ../classes/admin/class-settings-general.php:81
+msgid "New dispatch point"
+msgstr "Nuovo punto d&#39invio"
+
+#: ../classes/admin/class-settings-general.php:82
+msgid "Click Save Changes to add a new Dispatch point."
+msgstr ""
+"Clicca Salvaguarda le modifiche affine di aggiungere un nuovo punto d&#39;"
+"invio."
+
+#: ../classes/admin/class-settings-general.php:256
+msgid "Are you sure to change the country?"
+msgstr "Sei sicuro(a) che vuoi cambiare il paese?"
+
+#: ../classes/admin/class-settings-general.php:320 ../classes/admin/class-
+#: settings-general.php:323 ../classes/shipping/views/html-rates-cross-border-
+#: parcel-machines.php:19 courier.php:19
+msgid "Country"
+msgstr "Stato"
+
+#: ../classes/admin/class-settings-general.php:329
+msgid "To edit click API URL"
+msgstr "Clicca API URL affine di editare"
+
+#: ../classes/admin/class-settings-general.php:331
+msgid "Select country"
+msgstr "Scegli uno stato"
+
+#: ../classes/admin/class-settings-general.php:332
+msgid "Canada"
+msgstr "Canada"
+
+#: ../classes/admin/class-settings-general.php:333
+msgid "France"
+msgstr "Francia"
+
+#: ../classes/admin/class-settings-general.php:334
+msgid "Italy"
+msgstr "Italia"
+
+#: ../classes/admin/class-settings-general.php:335
+msgid "Poland"
+msgstr "Polonia"
+
+#: ../classes/admin/class-settings-general.php:347
+msgid "Logging in"
+msgstr "Informazioni di login"
+
+#: ../classes/admin/class-settings-general.php:361
+msgid "GEO widget URL"
+msgstr "GEO widget URL"
+
+#: ../classes/admin/class-settings-general.php:366
+msgid "Leave blank for standard GEO widget"
+msgstr "Leave blank for standard GEO widget"
+
+#: ../classes/admin/class-settings-general.php:371
+msgid "API URL Cross Border"
+msgstr "API URL Cross Border"
+
+#: ../classes/admin/class-settings-general.php:380
+msgid "Login"
+msgstr "Login"
+
+#: ../classes/admin/class-settings-general.php:390
+msgid "Token"
+msgstr "Token"
+
+#: ../classes/admin/class-settings-general.php:400
+msgid "Password"
+msgstr "Password"
+
+#: ../classes/admin/class-settings-general.php:405
+msgid "Required for Cross Border"
+msgstr "Richiesto per il servizio Cross Border"
+
+#: ../classes/admin/class-settings-general.php:455
+msgid "Tax"
+msgstr "Tassa"
+
+#: ../classes/admin/class-settings-general.php:458
+msgid "Tax Status"
+msgstr "Status fiscale"
+
+#: ../classes/admin/class-settings-general.php:465
+msgid "Taxable"
+msgstr "Da tassare"
+
+#: ../classes/admin/class-settings-general.php:466
+msgctxt "Tax status"
+msgid "None"
+msgstr "Non esistente"
+
+#: ../classes/admin/class-settings-general.php:475
+msgid "Select page"
+msgstr "Scegli la pagina"
+
+#: ../classes/admin/class-settings-general.php:480
+msgid "None"
+msgstr "Non esistente"
+
+#: ../classes/admin/class-settings-general.php:481
+msgid ""
+"If a returns page is not selected then this option will not be available in "
+"the client's \"My Account\"."
+msgstr ""
+"Se la pagina Rese non è scelta, l&#39;opzione non è disponibile al &#34;Mio "
+"conto&#34; del cliente."
+
+#: ../classes/admin/class-settings-general.php:487 ../classes/admin/class-
+#: settings-general.php:491
+msgid "Create new page"
+msgstr "Crea una nuova pagina"
+
+#: ../classes/admin/class-settings-general.php:488
+msgid "Create a new page to deal with returns."
+msgstr "Crea una nuova pagina Rese."
+
+#: ../classes/admin/class-settings-general.php:496
+msgid "Send options"
+msgstr "Opzioni di spedizione"
+
+#: ../classes/admin/class-settings-general.php:499
+msgid "Default package size"
+msgstr "Dimensione del pacco predefinita"
+
+#: ../classes/admin/class-settings-general.php:510
+msgid "Default send method"
+msgstr "Modo di spedizione predefinito"
+
+#: ../classes/admin/class-settings-general.php:521
+msgid "Default send parcel locker"
+msgstr "Locker predefinito"
+
+#: ../classes/admin/class-settings-general.php:533
+msgid "Dispatch point"
+msgstr "Punto di spedizione"
+
+#: ../classes/admin/class-settings-general.php:536
+msgid "Default dispatch point"
+msgstr "Punto di spedizione predefinito"
+
+#: ../classes/admin/class-settings-general.php:547
+msgid "Dispatch point name"
+msgstr "Nome del punto di spedizione"
+
+#: ../classes/admin/class-settings-general.php:577
+msgid "Office hours"
+msgstr "Ore d&#39;apertura"
+
+#: ../classes/admin/class-settings-general.php:582
+msgid "Example: 09:00-05:00"
+msgstr "Ad esempio: 09:00-15:00"
+
+#: ../classes/admin/class-settings-general.php:586 ../classes/admin/class-
+#: settings-general.php:668
+msgid "Street"
+msgstr "Nome di via"
+
+#: ../classes/admin/class-settings-general.php:596 ../classes/admin/class-
+#: settings-general.php:678
+msgid "Building no"
+msgstr "Numero di edificio"
+
+#: ../classes/admin/class-settings-general.php:606 ../classes/admin/class-
+#: settings-general.php:688
+msgid "Flat no"
+msgstr "Numero di appartamento"
+
+#: ../classes/admin/class-settings-general.php:625 ../classes/admin/class-
+#: settings-general.php:738
+msgid "City"
+msgstr "Città"
+
+#: ../classes/admin/class-settings-general.php:636
+msgid "Sender"
+msgstr "Mittente"
+
+#: ../classes/admin/class-settings-general.php:639
+msgid "First Name"
+msgstr "Nome"
+
+#: ../classes/admin/class-settings-general.php:649
+msgid "Last Name"
+msgstr "Cognome"
+
+#: ../classes/admin/class-settings-general.php:659
+msgid "Company Name"
+msgstr "Nome aziendale"
+
+#: ../classes/admin/class-settings-general.php:708
+msgid "Address 1"
+msgstr "Indirizzo 1"
+
+#: ../classes/admin/class-settings-general.php:718
+msgid "Address 2"
+msgstr "Indirizzo"
+
+#: ../classes/admin/class-settings-general.php:944
+msgid "There are some validation errors on sender data:"
+msgstr ""
+"Gli errori si sono manifestati ai dati di speditore durante la verifica "
+"della validità dei dati introdotti."
+
+#: ../classes/admin/class-settings-general.php:970
+msgid "There are some validation errors on default dispatch point data:"
+msgstr ""
+"Gli errori si sono manifestati ai dati di punto di spedizione durante la "
+"verifica della validità dei dati introdotti."
+
+#: ../classes/admin/views/html-shipment-manager.php:3
+msgid "InPost Shipments"
+msgstr "Spedizioni InPost"
+
+#: ../classes/admin/views/html-shipment-manager.php:15
+msgid "Dispatch point "
+msgstr "Punto di spedizione"
+
+#: ../classes/admin/views/html-shipment-manager.php:22
+msgid "From the list, select the packages that you want to be sent by courier."
+msgstr ""
+"Scegli gli invii che vuoi far inviare tramite il corrierre dell&#39;elenco."
+
+#: ../classes/admin/views/html-shipment-manager.php:23
+msgid "Get courier"
+msgstr "Ordina il corriere"
+
+#: ../classes/admin/views/html-shipment-manager.php:39
+msgid "Send method "
+msgstr "Modo di spedizione"
+
+#: ../classes/admin/views/html-shipment-manager.php:45
+msgid "Filter parcels"
+msgstr "Filtra i pacchi"
+
+#: ../classes/admin/views/html-shipment-manager.php:54
+msgid ""
+"From the list, select the packages that you want to be collected to be sent. "
+"If Courier has been chosen, the collection of your packages by a courier "
+"will be arranged."
+msgstr ""
+"Scegli gli invii che vuoi far inviare dell&#39;elenco. Per il modo di "
+"spedizione &#34;Corriere&#34;, la ricetta dei pacchi per corriere sarà "
+"ordinata."
+
+#: ../classes/admin/views/html-shipment-manager.php:56
+msgid "Get stickers"
+msgstr "Scarica delle etichette"
+
+#: ../classes/admin/views/html-shipment-manager.php:105 ..
+#: classes/admin/views/html-shipment-manager.php:152
+#: ../classes/admin/views/html- shipment-manager.php:176
+#: ../classes/admin/views/html-shipment-manager.php:223
+msgid "No parcels selected."
+msgstr "Invio non scelto"
+
+#: ../classes/inspire/plugin4.php:352
+msgid "Ustawienia"
+msgstr "Parametri"
+
+#: ../classes/inspire/plugin4.php:353
+msgid "Dokumentacja"
+msgstr "Documentazione"
+
+#: ../classes/inspire/plugin4.php:354
+msgid "Wsparcie"
+msgstr "Supporto"
+
+#: ../classes/shipping/parcel-machines-cod.php:24 ../classes/shipping/parcel-
+#: machines-cod.php:75
+msgid "InPost Locker 24/7 COD"
+msgstr "Locker  InPost (pagamento in contrassegno)"
+
+#: ../classes/shipping/parcel-machines-cod.php:61 ../classes/shipping/parcel-
+#: machines.php:116 ../classes/shipping/cross-border-courier.php:103 ..
+#: classes/shipping/cross-border-parcel-machines.php:100
+msgid "General settings"
+msgstr "Parametri generali"
+
+#: ../classes/shipping/parcel-machines-cod.php:67 ../classes/shipping/parcel-
+#: machines.php:122 ../classes/shipping/cross-border-courier.php:109 ..
+#: classes/shipping/cross-border-parcel-machines.php:106
+msgid "Enable/disable"
+msgstr "Attiva/Disattiva"
+
+#: ../classes/shipping/parcel-machines-cod.php:69 ../classes/shipping/parcel-
+#: machines.php:124 ../classes/shipping/cross-border-courier.php:111 ..
+#: classes/shipping/cross-border-parcel-machines.php:108
+msgid "Enable this shipping metod"
+msgstr "Attiva la modalità di spedizione"
+
+#: ../classes/shipping/parcel-machines-cod.php:73 ../classes/shipping/parcel-
+#: machines.php:128 ../classes/shipping/cross-border-courier.php:115 ..
+#: classes/shipping/cross-border-parcel-machines.php:112
+msgid "Method title"
+msgstr "Nome della modalità di spedizione"
+
+#: ../classes/shipping/parcel-machines-cod.php:80
+msgid "Bank account"
+msgstr "Numero di conto"
+
+#: ../classes/shipping/parcel-machines-cod.php:82
+msgid ""
+"Select the account to which the cost of COD will be transferred. If the list "
+"is empty, add the account number in the Settings."
+msgstr ""
+"Scegli il conto al quale l&#39;importo a pagare alla consegna sarà versato. "
+"Se l&#39;elenco è vuoto, aggiungi il numero di contro ai Parametri."
+
+#: ../classes/shipping/parcel-machines-cod.php:88 ../classes/shipping/parcel-
+#: machines.php:134 ../classes/shipping/cross-border-courier.php:121 ..
+#: classes/shipping/cross-border-parcel-machines.php:118
+msgid "Free shipping"
+msgstr "Invio gratuito"
+
+#: ../classes/shipping/parcel-machines-cod.php:92 ../classes/shipping/cross-
+#: border-courier.php:128
+#: ../classes/shipping/cross-border-parcel-machines.php:125
+msgid ""
+"Enter the amount of the contract, from which shipping will be free (does not "
+"include virtual products)."
+msgstr ""
+"Introduci l&#39;importo di ordine dal quale l&#39invio sarà gratuito (salvo "
+"i prodotti virtuali)."
+
+#: ../classes/shipping/parcel-machines-cod.php:96 ../classes/shipping/parcel-
+#: machines.php:145 ../classes/shipping/cross-border-courier.php:132 ..
+#: classes/shipping/cross-border-parcel-machines.php:129
+msgid "Flat rate"
+msgstr "Tariffa flat"
+
+#: ../classes/shipping/parcel-machines-cod.php:98 ../classes/shipping/parcel-
+#: machines.php:147 ../classes/shipping/cross-border-courier.php:134 ..
+#: classes/shipping/cross-border-parcel-machines.php:131
+msgid "Set a flat-rate shipping fee for the entire order."
+msgstr "Fissa una tariffa d&#39;invio unica per tutta l&#39;ordine."
+
+#: ../classes/shipping/parcel-machines-cod.php:103 ../classes/shipping/parcel-
+#: machines.php:152 ../classes/shipping/cross-border-courier.php:139 ..
+#: classes/shipping/cross-border-parcel-machines.php:136
+msgid "Cost per order"
+msgstr "Costo per ordine"
+
+#: ../classes/shipping/parcel-machines-cod.php:113 ../classes/shipping/parcel-
+#: machines.php:165 ../classes/shipping/cross-border-courier.php:151 ..
+#: classes/shipping/cross-border-parcel-machines.php:148
+msgid "Rates table"
+msgstr "Lista prezzi esposta"
+
+#: ../classes/shipping/parcel-machines-cod.php:120 ../classes/shipping/parcel-
+#: machines.php:171
+msgid "Based on"
+msgstr "In base a"
+
+#: ../classes/shipping/parcel-machines-cod.php:122 ../classes/shipping/parcel-
+#: machines.php:173
+msgid ""
+"Select the method of calculating shipping cost. If the cost of shipping is "
+"to be calculated based on the weight of the cart and the products do not "
+"have a defined weight, the cost will be calculated incorrectly."
+msgstr ""
+"Scegli il modo di calcolo dei costi d'invio. Se i costi d'invio sono "
+"calcolati secondo il peso del cestino e che i prodotti nel cestino non hanno "
+"il peso definito, i costi potranno essere calcolati in modo incorretto."
+
+#: ../classes/shipping/parcel-machines-cod.php:125 ../classes/shipping/parcel-
+#: machines.php:176
+msgid "Price"
+msgstr "Prezzo"
+
+#: ../classes/shipping/parcel-machines-cod.php:126 ../classes/shipping/parcel-
+#: machines.php:177 ../classes/shipping/views/html-order-matabox-crossborder-
+#: courier.php:79
+#: ../classes/shipping/views/html-order-matabox-crossborder-parcel-
+#: machines.php:87
+msgid "Weight"
+msgstr "Peso"
+
+#: ../classes/shipping/parcel-machines-cod.php:229 ../classes/shipping/parcel-
+#: machines-cod.php:251 ../classes/shipping/parcel-machines.php:403 ..
+#: classes/shipping/parcel-machines.php:425 ../classes/shipping/cross-border-
+#: courier.php:302 ../classes/shipping/cross-border-parcel-machines.php:366
+msgid "Parcel locker"
+msgstr "Locker"
+
+#: ../classes/shipping/parcel-machines-cod.php:341
+#, php-format
+msgid "Order total %s do not equals total COD amounts %s."
+msgstr ""
+"Importo dell&#39;ordine %s non è uguale all&#39;importo &#34;a pagare alla "
+"consegna&#34; %s."
+
+#: ../classes/shipping/parcel-machines-cod.php:353 ../classes/shipping/parcel-
+#: machines.php:463
+#, php-format
+msgid "Order %s"
+msgstr "Ordine %s"
+
+#: ../classes/shipping/parcel-machines-cod.php:356
+msgid "Order "
+msgstr "Ordine"
+
+#: ../classes/shipping/parcel-machines-cod.php:364 ../classes/shipping/parcel-
+#: machines.php:507 ../classes/shipping/cross-border-parcel-machines.php:512
+msgid "There are some errors. Please fix it:"
+msgstr "Gli errori si sono manifestati. Sei gentile di corrigerli:"
+
+#: ../classes/shipping/parcel-machines-cod.php:372 ../classes/shipping/parcel-
+#: machines.php:515 ../classes/shipping/cross-border-parcel-machines.php:554
+msgid "Shipment created"
+msgstr "Invio creato"
+
+#: ../classes/shipping/parcel-machines-cod.php:395 ../classes/shipping/parcel-
+#: machines.php:537
+#, php-format
+msgid "Cannot cancel package %s"
+msgstr "Non puoi annullare il pacco %s"
+
+#: ../classes/shipping/parcel-machines-cod.php:409 ../classes/shipping/parcel-
+#: machines.php:551
+msgid "Shipment canceled"
+msgstr "Invio annullato"
+
+#: ../classes/shipping/parcel-machines.php:25
+#: ../classes/shipping/parcel-machines. php:130
+msgid "InPost Locker 24/7"
+msgstr "InPost Locker 24/7"
+
+#: ../classes/shipping/parcel-machines.php:141
+msgid ""
+"Enter the amount of the order from which the shipping will be free (does not "
+"include virtual products). "
+msgstr ""
+"Introduci l&#39;importo di ordine dal quale l&#39;invio sarà gratuito (salvo "
+"i prodotti virtuali)."
+
+#: ../classes/shipping/parcel-machines.php:302
+#: ../classes/shipping/cross-border- parcel-machines.php:269
+msgid "Parcel locker must be choosen."
+msgstr "Devi scegliere il Locker."
+
+#: ../classes/shipping/parcel-machines.php:594
+#: ../classes/shipping/cross-border- parcel-machines.php:571
+msgid "Security check - bad nonce!"
+msgstr "Controllo di sicurezza - espressione invalida!"
+
+#: ../classes/shipping/cross-border-courier.php:24 ../classes/shipping/cross-
+#: border-courier.php:117
+msgid "Cross Border Courier"
+msgstr " InPost a domicilioInternazionale "
+
+#: ../classes/shipping/cross-border-courier.php:147 ../classes/shipping/cross-
+#: border-parcel-machines.php:144
+msgid "Set a flat-rate shipping for all orders."
+msgstr "Fissa una tariffa piatta d'invio per tutte le ordini."
+
+#: ../classes/shipping/cross-border-parcel-machines.php:24 ..
+#: classes/shipping/cross-border-parcel-machines.php:114
+msgid "Cross Border Parcel Locker"
+msgstr "Locker InPost (consegne internazionali) "
+
+#: ../classes/shipping/views/html-rates-cod.php:19
+#: ../classes/shipping/views/html- rates.php:19
+msgid "Min"
+msgstr "Minimo"
+
+#: ../classes/shipping/views/html-rates-cod.php:20
+#: ../classes/shipping/views/html- rates.php:20
+msgid "Max"
+msgstr "Massimo"
+
+#: ../classes/shipping/views/html-rates-cod.php:21
+#: ../classes/shipping/views/html- rates.php:21
+msgid "Cost"
+msgstr "Spese"
+
+#: ../classes/shipping/views/html-rates-cod.php:22
+msgid "%"
+msgstr "%"
+
+#: ../classes/shipping/views/html-rates-cod.php:22
+msgid ""
+"The commission is added to the shipping cost according to the formula: "
+"[value of the cart] * [%] + [shipping cost]."
+msgstr ""
+"La commissione è aggiunta alle spese d&#39;invio secondo il modello: [valore "
+"di Cestino]*[%] + [spese d&#39;invio]."
+
+#: ../classes/shipping/views/html-rates-cod.php:44
+#: ../classes/shipping/views/html- rates-cod.php:74
+#: ../classes/shipping/views/html-rates.php:40 ..
+#: classes/shipping/views/html-rates.php:67
+msgid "Delete row"
+msgstr "Aggiungi una riga"
+
+#: ../classes/shipping/views/html-rates-cod.php:52
+#: ../classes/shipping/views/html- rates.php:48
+msgid "Insert row"
+msgstr "Introduci la riga"
+
+#: ../classes/shipping/views/html-rates-cod.php:95
+#: ../classes/shipping/views/html- rates.php:88
+msgid "Are you sure?"
+msgstr "Sei sicuro(a)?"
+
+#: ../classes/shipping/views/html-order-matabox-crossborder-courier.php:22 ..
+#: classes/shipping/views/html-order-matabox-crossborder-parcel-machines.php:31
+msgid "Parcel"
+msgstr "Parcel"
+
+#: ../classes/shipping/views/html-order-matabox-crossborder-courier.php:26
+msgid "Dimensions (max 60x40x40)"
+msgstr "Dimensions (max 60x40x40)"
+
+#: ../classes/shipping/views/html-order-matabox-crossborder-courier.php:35 ..
+#: classes/shipping/views/html-order-matabox-crossborder-parcel-machines.php:43
+msgid "Width"
+msgstr "Width"
+
+#: ../classes/shipping/views/html-order-matabox-crossborder-courier.php:49 ..
+#: classes/shipping/views/html-order-matabox-crossborder-parcel-machines.php:57
+msgid "Height"
+msgstr "Height"
+
+#: ../classes/shipping/views/html-order-matabox-crossborder-courier.php:63 ..
+#: classes/shipping/views/html-order-matabox-crossborder-parcel-machines.php:71
+msgid "Length"
+msgstr "Length"
+
+#: ../classes/shipping/views/html-order-matabox-crossborder-courier.php:77 ..
+#: classes/shipping/views/html-order-matabox-crossborder-courier.php:117
+#: classes/shipping/views/html-order-matabox-crossborder-parcel-machines.php:85
+#: .
+#: classes/shipping/views/html-order-matabox-crossborder-parcel-machines.php:125
+msgid "Processing"
+msgstr "Trattamento"
+
+#: ../classes/shipping/views/html-order-matabox-crossborder-courier.php:79 ..
+#: classes/shipping/views/html-order-matabox-crossborder-parcel-machines.php:87
+msgid "kg"
+msgstr "kg"
+
+#: ../classes/shipping/views/html-order-matabox-crossborder-courier.php:80 ..
+#: classes/shipping/views/html-order-matabox-crossborder-parcel-machines.php:88
+msgid "dimensions"
+msgstr "dimensions"
+
+#: ../classes/shipping/views/html-order-matabox-crossborder-courier.php:81 ..
+#: classes/shipping/views/html-order-matabox-crossborder-parcel-machines.php:89
+msgid "cm"
+msgstr "cm"
+
+#: ../classes/shipping/views/html-order-matabox-crossborder-courier.php:105 ..
+#: classes/shipping/views/html-order-matabox-crossborder-parcel-machines.php:113
+msgid "Send parcel"
+msgstr "Invia il tuo pacco"
+
+#: ../classes/shipping/views/html-order-matabox-crossborder-courier.php:108 ..
+#: classes/shipping/views/html-order-matabox-crossborder-parcel-machines.php:116
+#: ../classes/shipping/views/html-order-matabox-parcel-machines.php:77
+#: classes/shipping/views/html-order-matabox-parcel-machines_cod.php:80
+msgid "Cancel parcels"
+msgstr "Annulla l&#39;invio"
+
+#: ../classes/shipping/views/html-order-matabox-crossborder-courier.php:111 ..
+#: classes/shipping/views/html-order-matabox-crossborder-parcel-machines.php:119
+#: ../classes/shipping/views/html-order-matabox-parcel-machines.php:82
+#: classes/shipping/views/html-order-matabox-parcel-machines_cod.php:85
+msgid "Get sticker(s)"
+msgstr "Scarica una (delle) etichetta (e)"
+
+#: ../classes/shipping/views/html-order-matabox-crossborder-parcel-machines.php:
+#: 18 ../classes/shipping/views/html-order-matabox-parcel-machines.php:20 ..
+#: classes/shipping/views/html-order-matabox-parcel-machines_cod.php:20
+msgid "Selected parcel locker"
+msgstr "Locker scelto"
+
+#: ../classes/shipping/views/html-order-matabox-crossborder-parcel-machines.php:35
+msgid "Dimensions (max 64x41x38)"
+msgstr "Dimensions (max 64x41x38)"
+
+#: ../classes/shipping/views/html-rates-cross-border-parcel-machines.php:13 ..
+#: classes/shipping/views/html-rates-cross-border-courier.php:13
+msgid ""
+"You can edit and set your own prices that will be seen when the customer is "
+"placing the order. If the products do not have a defined weight, the cost "
+"will be calculated incorrectly."
+msgstr ""
+"Puoi modificare e fissare i tuoi prezzi che saranno visibili al momento "
+"dell&#39ordine di Cliente. Se il peso dei prodotti non è definito, le spese "
+"non saranno correttamente calcolate."
+
+#: ../classes/shipping/views/html-order-matabox-parcel-machines.php:25 ..
+#: classes/shipping/views/html-order-matabox-parcel-machines_cod.php:25
+msgid "Parcels"
+msgstr "Pacchi"
+
+#: ../classes/shipping/views/html-order-matabox-parcel-machines.php:41 ..
+#: classes/shipping/views/html-order-matabox-parcel-machines.php:103
+#: classes/shipping/views/html-order-matabox-parcel-machines_cod.php:43
+#: classes/shipping/views/html-order-matabox-parcel-machines_cod.php:106
+msgid "Remove"
+msgstr "Elimina"
+
+#: ../classes/shipping/views/html-order-matabox-parcel-machines.php:44 ..
+#: classes/shipping/views/html-order-matabox-parcel-machines_cod.php:46
+msgid "Size"
+msgstr "Dimensione"
+
+#: ../classes/shipping/views/html-order-matabox-parcel-machines.php:52 ..
+#: classes/shipping/views/html-order-matabox-parcel-machines_cod.php:55
+msgid "Add parcel"
+msgstr "Aggiungi un pacco"
+
+#: ../classes/shipping/views/html-order-matabox-parcel-machines.php:73 ..
+#: classes/shipping/views/html-order-matabox-parcel-machines_cod.php:76
+msgid "Send parcels"
+msgstr "Invia i tuoi pacchi"
+
+#: ../classes/shipping/views/html-order-matabox-parcel-machines_cod.php:40
+msgid "COD amount: "
+msgstr "Importo a pagare alla consegna"
+
+#: ../classes/shipping/views/html-order-matabox-parcel-machines_cod.php:48
+msgid "COD amount"
+msgstr "Importo a pagare alla consegna"

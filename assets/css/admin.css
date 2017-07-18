@@ -1,0 +1,86 @@
+.easypack_rates {
+	max-width: 600px;	
+}
+
+.easypack_rates td {
+	max-width: 60px;	
+}
+
+.easypack_rates .input-text {
+	width: 100%;	
+}
+
+.easypack_rates .price {
+	width: 60px;
+}
+.easypack_rates .country {
+	padding-left: 10px;
+}
+.easypack_rates .action {
+	width: 90px;
+}
+.easypack_rates .delete_rate {
+	width: 100%;
+	text-align: center;
+}
+
+
+#woocommerce_easypack_cross_border_parcel_machines_rates, #woocommerce_easypack_parcel_machines_cod_rates {
+	max-width: 600px;	
+}
+#woocommerce_easypack_cross_border_parcel_machines_rates .input-text {
+	width: 100%;
+}
+
+#woocommerce_easypack_parcel_machines_rates {
+	max-width: 600px;	
+}
+#woocommerce_easypack_parcel_machines_rates .input-text {
+	width: 100%;
+}
+
+#woocommerce_easypack_parcel_machines_cod_rates {
+	max-width: 600px;
+}
+#woocommerce_easypack_parcel_machines_cod_rates .price {
+	width: 70px;
+}
+#woocommerce_easypack_parcel_machines_cod_rates .input-text {
+	width: 100%;
+}
+
+#woocommerce_easypack_cross_border_courier_rates {
+	max-width: 800px;	
+}
+#woocommerce_easypack_cross_border_courier_rates .input-text {
+	width: 100%;
+}
+#woocommerce_easypack_cross_border_courier_rates .price {
+	width: 60px;
+}
+#woocommerce_easypack_cross_border_courier_rates .country {
+	padding-left: 10px;
+}
+
+#easypack_error {
+	font-weight: bold;
+	color: red;
+}
+
+#easypack_error ul li {
+	list-style-type: circle;
+	margin-left: 30px;	
+}
+
+ul.easypack_error li { 
+	list-style-type: circle;
+	margin-left: 30px;	
+}
+
+.form-row label {
+	display: inline;
+}
+
+.form-row input[type=number], .form-row input[type=text], .form-row select {
+	width: auto;
+}
